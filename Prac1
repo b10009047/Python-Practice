@@ -1,1 +1,16 @@
-test
+##practice - guess number ##
+
+import random
+num=random.randint(1,100)
+
+
+while True :
+    x=int(input("Please enter a number between 1 ~ 100 :\n"))
+    if x<num :
+        print("Too small!!\n")
+    elif x>num :
+        print("Too big !!\n")
+    else :
+        print("You got it ! \b")
+        break
+
